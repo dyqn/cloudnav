@@ -21,7 +21,7 @@ const DEFAULT_SETTINGS: SettingsData = {
     apiKey: '', 
     baseUrl: 'https://generativelanguage.googleapis.com', 
     model: 'gemini-3.1-flash-lite', 
-    websiteTitle: '',
+    websiteTitle: '多元书签 - 奇趣网站收藏夹',
     faviconUrl: '',
     providers: {
       google: { apiKey: '', baseUrl: 'https://generativelanguage.googleapis.com', model: 'gemini-3.1-flash-lite' },
@@ -266,7 +266,7 @@ const SettingsModal: React.FC<SettingsModalProps> = ({
                 <div className="space-y-3">
                   <div>
                     <label className="block text-xs font-medium text-slate-500 mb-1">网站标题</label>
-                    <input type="text" value={settings.ai.websiteTitle || ''} onChange={(e) => updateAI('websiteTitle', e.target.value)} placeholder="个人导航" className="w-full h-11 px-3 py-2.5 rounded-lg border border-slate-300 dark:border-slate-600 dark:bg-slate-700 dark:text-white focus:ring-2 focus:ring-blue-500 outline-none" />
+                    <input type="text" value={settings.ai.websiteTitle || ''} onChange={(e) => updateAI('websiteTitle', e.target.value)} placeholder="多元书签 - 奇趣网站收藏夹" className="w-full h-11 px-3 py-2.5 rounded-lg border border-slate-300 dark:border-slate-600 dark:bg-slate-700 dark:text-white focus:ring-2 focus:ring-blue-500 outline-none" />
                   </div>
                   <div>
                     <label className="block text-xs font-medium text-slate-500 mb-1">侧边栏网页导航名称</label>

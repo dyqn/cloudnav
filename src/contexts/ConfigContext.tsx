@@ -52,6 +52,7 @@ const defaultAI: AIConfig = {
   apiKey: '',
   baseUrl: '',
   model: 'gemini-3.1-flash-lite',
+  websiteTitle: '多元书签 - 奇趣网站收藏夹',
 };
 
 const defaultWebsite: WebsiteConfig = {

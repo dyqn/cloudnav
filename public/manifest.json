@@ -1,6 +1,6 @@
 {
-  "name": "小酷导航",
-  "short_name": "小酷导航",
+  "name": "多元书签",
+  "short_name": "多元书签",
   "description": "一个现代化的云端导航页面",
   "start_url": "/",
   "display": "standalone",

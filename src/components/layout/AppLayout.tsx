@@ -153,7 +153,7 @@ export function AppLayout() {
   // Apply dynamic website title and favicon
   useEffect(() => {
     if (aiConfig) {
-      document.title = aiConfig.websiteTitle || '个人导航';
+      document.title = aiConfig.websiteTitle || '多元书签 - 奇趣网站收藏夹';
       
       let link = document.querySelector("link[rel~='icon']") as HTMLLinkElement;
       if (!link) {
